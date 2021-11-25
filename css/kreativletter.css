@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* Global Styles */
+
+body {
+	background-image: url("https://kreativletter.shesmile.de/images/background.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 900px;
+}
+
+/* Header */
+
+
+header {
+	padding: 50px 50px 50px 50px;
+ 	background-color: #ffffff;
+	align-content: center;
+}
+
+
+h1 {
+	font-family: 'Allura', cursive;
+	color: #474747;
+	font-size: 35px;
+	line-height: 33px;
+	font-weight: normal;
+}
+
+h3 {
+	font-family: 'Allura', cursive;
+	color: #474747;
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: normal;
+}
+
+
+h4 {
+	font-family: 'Allura', cursive;
+	color: #474747;
+	font-size: 19px;
+	line-height: 22px;
+	font-weight: normal;
+}
+
+p, li, ul {
+	font-family: 'Barlow', sans-serif;
+	color: #474747;
+	font-size: 15px;
+	line-height: 22px;
+	font-weight: normal;
+}
+
+a:link, a:visited, a:active {
+	color: #F18F84;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #EB566D;
+}
+
+
+/* Footer */
+
+footer .footerDisclaimer{
+	font-family: 'Barlow', sans-serif;
+	color: #474747;
+	font-size: 15px;
+	line-height: 22px;
+	text-align: center;
+	float: center;
+	margin: 0px 50px 50px 50px;
+}
